@@ -67,7 +67,28 @@ height: 200px;
     margin: auto;
     max-width: 760px;
 }
-
-
-    
 }
+
+.fa-github-alt:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-whatsapp:hover, .fa-file-alt:hover{
+    color:rgb(37, 37, 95) !important;
+}
+
+
+/* modified for of hover.css */
+
+/* Grow */
+.hvr-grow-mdf {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow-mdf:hover, .hvr-grow-mdf:focus, .hvr-grow-mdf:active {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
