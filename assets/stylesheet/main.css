@@ -1,0 +1,73 @@
+
+.header{
+    padding : 60px 30px 60px 30px;
+    margin: auto;
+    max-width: 760px;
+}
+
+
+
+.header_intro{
+    padding: 10px;
+    margin-right: 0px;
+    color: #052D3F;
+
+}
+
+.header_title {
+    
+    font-family: "Leitura News Roman 4";
+    font-weight: bolder;
+}
+
+
+.header_bio{
+    font-style: "arial";
+    margin:0;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.contact_mail {
+    font-family: "Inconsolata","Consolas",monospace;
+    margin: 8px 0 8px 0;
+    word-spacing: -2px;
+}
+
+.box{ 
+width: 200px ;
+height: 200px; 
+} 
+
+
+.header_icons{
+    padding: 0;
+}
+
+
+
+.other_contacts{
+    font-size: 20px;
+    margin: 5px;
+    color: black;
+}
+
+.nav_btn{
+    color: black;
+    padding: 5px;
+
+}
+
+
+@media (max-width: 575px) {
+    
+.header{
+    padding : 20px;
+    margin: auto;
+    max-width: 760px;
+}
+
+
+    
+}
