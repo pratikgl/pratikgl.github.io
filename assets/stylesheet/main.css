@@ -10,7 +10,7 @@
 .header_intro{
     padding: 10px;
     margin-right: 0px;
-    color: #052D3F;
+    color: #052d3f;
 
 }
 
@@ -69,12 +69,16 @@ height: 200px;
 }
 }
 
+.mailto:hover{
+    color: rgb(143, 143, 143) !important;
+}
+
 .fa-github-alt:hover{
     color:rgb(5, 5, 5) !important;
 }
 
 .fa-instagram:hover{
-    color: rgb(180, 51, 51) !important;
+    color: #d84339 !important;
 }
 
 .fa-linkedin-in:hover{
@@ -82,7 +86,7 @@ height: 200px;
 }
 
 .fa-whatsapp:hover{
-    color: rgb(54, 189, 54) !important;
+    color: #4fce5d !important;
 }
 
 
