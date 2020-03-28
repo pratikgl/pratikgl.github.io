@@ -1,13 +1,12 @@
 
-.header{
+/* Header CSS*/
+.header {
     padding : 60px 30px 60px 30px;
     margin: auto;
     max-width: 760px;
 }
 
-
-
-.header_intro{
+.header_intro {
     padding: 10px;
     margin-right: 0px;
     color: #052d3f;
@@ -20,8 +19,7 @@
     font-weight: bolder;
 }
 
-
-.header_bio{
+.header_bio {
     font-style: "arial";
     margin:0;
     text-transform: uppercase;
@@ -29,73 +27,87 @@
     font-weight: 600;
     letter-spacing: 2px;
 }
+
 .contact_mail {
     font-family: "Inconsolata","Consolas",monospace;
     margin: 8px 0 8px 0;
     word-spacing: -2px;
 }
 
-.box{ 
+.box { 
 width: 200px ;
 height: 200px; 
 } 
 
-
-.header_icons{
+.header_icons {
     padding: 0;
 }
 
-
-
-.other_contacts{
+.other_contacts {
     font-size: 20px;
     margin: 5px;
     color: black;
 }
 
-.nav_btn{
+.nav_btn {
     color: black;
     padding: 5px;
 
 }
 
-
 @media (max-width: 575px) {
     
-.header{
-    padding : 20px;
-    margin: auto;
-    max-width: 760px;
-}
+    .header {
+        padding : 20px;
+        margin: auto;
+        max-width: 760px;
+    }
 }
 
-.mailto:hover{
+.mailto:hover {
     color: rgb(143, 143, 143) !important;
 }
 
-.fa-github-alt:hover{
+.fa-github-alt:hover {
     color:rgb(5, 5, 5) !important;
 }
 
-.fa-instagram:hover{
+.fa-instagram:hover {
     color: #d84339 !important;
 }
 
-.fa-linkedin-in:hover{
+.fa-linkedin-in:hover {
     color: rgb(14, 118, 168) !important;
 }
 
-.fa-whatsapp:hover{
+.fa-whatsapp:hover {
     color: #4fce5d !important;
 }
 
+/* About Section CSS*/
+.intro {
+    padding : 20px 30px 20px 30px;
+    margin: auto;
+    max-width: 760px;
+}
 
+/* Skills Section */
+.skills{
+    padding : 20px 30px 20px 30px;
+    margin: auto;
+    max-width: 760px;
+}
 
+/* Photography Section CSS */
+.photography{
+    padding : 20px 30px 20px 30px;
+    margin: auto;
+    max-width: 760px;
+}
 
+/* Footer CSS*/
 .footer{
     padding : 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
-    justify-content: right;
-
 }
