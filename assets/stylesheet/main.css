@@ -15,12 +15,12 @@
 
 .header_title {
     
-    font-family: "Leitura News Roman 4";
+    font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
 }
 
 .header_bio {
-    font-style: "arial";
+    font-family: Arial;
     margin:0;
     text-transform: uppercase;
     font-size: 90%;
@@ -64,7 +64,7 @@ height: 200px;
     }
 }
 
-.mailto:hover {
+.txt_hvr:hover {
     color: rgb(143, 143, 143) !important;
 }
 
