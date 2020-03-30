@@ -35,8 +35,8 @@
 }
 
 .box { 
-width: 200px ;
-height: 200px; 
+    width: 200px ;
+    height: 200px; 
 } 
 
 .header_icons {
@@ -68,6 +68,11 @@ height: 200px;
     color: rgb(143, 143, 143) !important;
 }
 
+.txt_hvr_dark:hover {
+    color: rgb(32, 32, 32) !important;
+    text-decoration: none;
+}
+
 .fa-github-alt:hover {
     color:rgb(5, 5, 5) !important;
 }
@@ -82,6 +87,14 @@ height: 200px;
 
 .fa-whatsapp:hover {
     color: #4fce5d !important;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998 !important;
+}
+
+.fa-twitter:hover {
+    color: #00acee !important;
 }
 
 /* About Section CSS*/
@@ -118,6 +131,15 @@ height: 200px;
         max-width: 660px;
     }
 }
+
+/* Contact CSS */
+.contact{
+    padding : 20px 30px 20px 30px;
+    margin: auto;
+    max-width: 760px;
+}
+
+
 /* Footer CSS*/
 .footer{
     padding : 20px 30px 20px 30px;
