@@ -37,6 +37,7 @@
 .box { 
     width: 200px ;
     height: 200px; 
+    border-radius: 10px;
 } 
 
 .header_icons {
@@ -110,6 +111,16 @@
     padding : 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
+}
+
+.card{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    border-width: 1px 2px 1px 2px !important;
+}
+
+.card-body{
+    padding: 10px;
 }
 
 /* Photography Section CSS */
