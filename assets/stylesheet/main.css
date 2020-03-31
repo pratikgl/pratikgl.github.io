@@ -123,6 +123,20 @@
     padding: 10px;
 }
 
+@media (max-width: 575px){
+    .card-body{
+        padding: 10px;
+        text-align: center;
+    }
+    .card-img-top{
+        width:40%;
+    }
+}
+
+.card-img-top{
+    width: 70%;
+}
+
 /* Photography Section CSS */
 .photography{
     padding : 20px 30px 20px 30px;
