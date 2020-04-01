@@ -115,6 +115,7 @@
         padding : 20px;
         margin: auto;
         max-width: 760px;
+        font-size: 17px;
     }
 }
 
@@ -128,8 +129,8 @@
 
 .card{
     margin: 20px 10px 20px 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
     padding: 10px 0 10px 0;
+    border: 0px;
 }
 
 .card-body{
