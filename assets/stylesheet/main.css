@@ -104,6 +104,9 @@
     padding : 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    letter-spacing: 0.4px;
 }
 
 @media (max-width: 575px) {
@@ -120,13 +123,14 @@
     padding : 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
+    
 }
 
 .card{
-    margin: 10px;
+    margin: 20px 10px 20px 10px;
     border-width: 1px 2px 1px 2px !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    padding: 10px 0 10px 0;
 }
 
 .card-body{
