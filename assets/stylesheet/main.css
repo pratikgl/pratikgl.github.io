@@ -106,6 +106,15 @@
     max-width: 760px;
 }
 
+@media (max-width: 575px) {
+    
+    .intro {
+        padding : 20px;
+        margin: auto;
+        max-width: 760px;
+    }
+}
+
 /* Skills Section */
 .skills{
     padding : 20px 30px 20px 30px;
@@ -122,6 +131,16 @@
 
 .card-body{
     padding: 10px;
+}
+
+.card-title{
+    
+    margin-top: 3px;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
 }
 
 @media (max-width: 575px){
