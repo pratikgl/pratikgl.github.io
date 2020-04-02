@@ -24,7 +24,18 @@
 
     </head>
 
-    <div id="loader" class="center"></div> 
+    <body style="color: rgb(5, 17, 63);">
+        
+
+        <!-- Preloader -->
+        <div class="sk-chase center">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
 
         <!--Header Section-->
         <section style="background-color: #e8fdf5">
@@ -118,7 +129,7 @@
                             <div class="col-sm-8 ">
                                 <div class="card-body">
                                     <h5 class="card-title">Programming</h5>
-                                    <p class="card-text">My tryst with Programming started in my first year of coolege and currently I'm proficient in Python, C and C++.</p>
+                                    <p class="card-text">My tryst with Programming started in my first year of college and currently I'm proficient in Python, C and C++.</p>
                                 </div>
                             </div>
                         </div>
@@ -351,16 +362,18 @@
             </div>
         </div>
 
+
+        <!-- Preloader javascript -->
         <script> 
             document.onreadystatechange = function() { 
                 if (document.readyState !== "complete") { 
                     document.querySelector( 
                       "body").style.visibility = "hidden"; 
                     document.querySelector( 
-                      "#loader").style.visibility = "visible"; 
+                      ".sk-chase").style.visibility = "visible"; 
                 } else { 
                     document.querySelector( 
-                      "#loader").style.display = "none"; 
+                      ".sk-chase").style.display = "none"; 
                     document.querySelector( 
                       "body").style.visibility = "visible"; 
                 } 
