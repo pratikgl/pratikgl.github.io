@@ -24,16 +24,7 @@
 
     </head>
 
-    <body style="color: rgb(5, 17, 63);">
-
-        <div class="sk-chase">
-            <div class="sk-chase-dot"></div>
-            <div class="sk-chase-dot"></div>
-            <div class="sk-chase-dot"></div>
-            <div class="sk-chase-dot"></div>
-            <div class="sk-chase-dot"></div>
-            <div class="sk-chase-dot"></div>
-        </div>
+    <div id="loader" class="center"></div> 
 
         <!--Header Section-->
         <section style="background-color: #e8fdf5">
@@ -366,10 +357,10 @@
                     document.querySelector( 
                       "body").style.visibility = "hidden"; 
                     document.querySelector( 
-                      ".sk-chase").style.visibility = "visible"; 
+                      "#loader").style.visibility = "visible"; 
                 } else { 
                     document.querySelector( 
-                      ".sk-chase").style.display = "none"; 
+                      "#loader").style.display = "none"; 
                     document.querySelector( 
                       "body").style.visibility = "visible"; 
                 } 
