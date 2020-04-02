@@ -223,6 +223,10 @@
     .card-img-top{
         width:50% !important;
     }
+    .skills{
+        padding: 20px;
+        font-size: 17px;
+    }
 }
 
 .card-img-top{
