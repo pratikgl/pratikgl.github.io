@@ -115,12 +115,7 @@
         padding : 20px;
         margin: auto;
         max-width: 760px;
-<<<<<<< HEAD
-        
         font-size: 17px;
-=======
-        font-size: 15px;
->>>>>>> 44c33c6726d747398130376ef15bac296f97ed0b
     }
 }
 
@@ -135,7 +130,7 @@
 .card{
     margin: 20px 10px 20px 10px;
     padding: 10px 0 10px 0;
-    border: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-body{
