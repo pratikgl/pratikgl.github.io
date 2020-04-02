@@ -115,8 +115,12 @@
         padding : 20px;
         margin: auto;
         max-width: 760px;
+<<<<<<< HEAD
         
         font-size: 17px;
+=======
+        font-size: 15px;
+>>>>>>> 44c33c6726d747398130376ef15bac296f97ed0b
     }
 }
 
