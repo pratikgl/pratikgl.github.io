@@ -26,6 +26,15 @@
 
     <body style="color: rgb(5, 17, 63);">
 
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+
         <!--Header Section-->
         <section style="background-color: #e8fdf5">
             <div class="header container-fluid">
@@ -350,6 +359,24 @@
                 </p>
             </div>
         </div>
+
+        <script> 
+            document.onreadystatechange = function() { 
+                if (document.readyState !== "complete") { 
+                    document.querySelector( 
+                      "body").style.visibility = "hidden"; 
+                    document.querySelector( 
+                      ".sk-chase").style.visibility = "visible"; 
+                } else { 
+                    document.querySelector( 
+                      ".sk-chase").style.display = "none"; 
+                    document.querySelector( 
+                      "body").style.visibility = "visible"; 
+                } 
+            }; 
+        </script> 
+
+
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
