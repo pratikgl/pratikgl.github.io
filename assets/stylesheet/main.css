@@ -233,6 +233,30 @@
     width: 70%;
 }
 
+.hvr-grow-card {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    background-color: #f5f7ff;
+}
+.hvr-grow-card:hover, .hvr-grow-card:focus, .hvr-grow-card:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.07);
+    background-color: #d4d4ff;
+    border-width: thin;
+    border-style: solid;
+    border-color: #6e708a;
+
+}
+
+
+
 /* Photography Section CSS */
 .photography{
     padding : 20px 30px 20px 30px;
