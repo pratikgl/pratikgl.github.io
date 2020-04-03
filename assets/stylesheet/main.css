@@ -175,7 +175,6 @@
     max-width: 760px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    letter-spacing: 0.4px;
 }
 
 
@@ -270,6 +269,8 @@
     padding : 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 .carousel{
