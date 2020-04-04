@@ -180,9 +180,13 @@
 
 .topic{
     font-family: 'Times New Roman', Times, serif;
-    color: #515162;
+    color: #27273f;
     font-weight: bold;
-    margin-top: 20px;
+    position: relative;
+    display: table;
+    padding: 0 10px;
+    z-index: 2;
+    margin: 20px auto 8px auto;
 }
 
 @media (max-width: 575px) {
@@ -271,6 +275,18 @@
     max-width: 760px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+}
+
+.topic::after {
+    content: '';
+    background-color: #f5c0a2;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
+    left: 0;
+    width: 100%;
+    z-index: -1;
 }
 
 .carousel{
