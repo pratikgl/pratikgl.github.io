@@ -173,8 +173,8 @@
     padding : 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    font-size: 17px;
 }
 
 
@@ -204,6 +204,7 @@
     padding : 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
+    font-size: 15px;
     
 }
 
@@ -236,7 +237,7 @@
     }
     .skills{
         padding: 20px;
-        font-size: 17px;
+        font-size: 15px;
     }
 }
 
@@ -273,8 +274,8 @@
     padding : 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    font-size: 17px;
 }
 
 .topic::after {
