@@ -182,6 +182,7 @@
     max-width: 760px;
     /*font-family: 'Times New Roman', Times, serif;*/
     font-size: 17px;
+    text-align: justify;
 
 }
 
@@ -224,7 +225,10 @@
 .card-body{
     padding: 10px;
 }
-
+.card-text
+{
+    text-align: justify;
+}
 .card-title{
     
     margin-top: 3px;
@@ -286,6 +290,7 @@
     margin: auto;
     max-width: 760px;
     /*font-family: 'Times New Roman', Times, serif;*/
+    text-align: justify;
     font-size: 17px;
 }
 
