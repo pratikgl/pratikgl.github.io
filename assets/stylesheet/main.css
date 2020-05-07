@@ -69,6 +69,13 @@
 
 
 /* Header CSS*/
+@media (max-width: 575px) {
+    
+    .bdy {
+        color: rgb(5, 17, 63);
+        font-family: "Times New Roman", Times, serif;
+    }
+}
 .header {
     padding : 60px 30px 60px 30px;
     margin: auto;
@@ -176,8 +183,6 @@
     /*font-family: 'Times New Roman', Times, serif;*/
     font-size: 17px;
 
-    font-size: 18px;
-
 }
 
 
@@ -198,7 +203,7 @@
         padding : 20px;
         margin: auto;
         max-width: 760px;
-        font-size: 17px;
+        font-size: 15px;
     }
 }
 
@@ -231,12 +236,15 @@
 }
 
 @media (max-width: 575px){
+    .card{
+        margin:10px 0px 10px 0px;
+    }
     .card-body{
         padding: 10px;
         text-align: center;
     }
     .card-img-top{
-        width:50% !important;
+        width:40% !important;
     }
     .skills{
         padding: 20px;
@@ -299,6 +307,11 @@
     max-width: 660px;
 }
 @media (max-width: 575px) {
+    .photography
+    {
+        padding: 20px;
+        font-size: 15px;
+    }
     
     .carousel {
         padding: 0px;
