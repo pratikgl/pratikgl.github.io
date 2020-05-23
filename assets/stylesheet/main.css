@@ -1,83 +1,108 @@
-
 /*  Preloader CSS*/
 
 .sk-chase {
-  width: 40px;
-  height: 40px;
-  position: relative;
-  animation: sk-chase 2.5s infinite linear both;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    animation: sk-chase 2.5s infinite linear both;
 }
 
 .sk-chase-dot {
-
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0; 
-  animation: sk-chase-dot 2.0s infinite ease-in-out both; 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: sk-chase-dot 2s infinite ease-in-out both;
 }
 
 .sk-chase-dot:before {
-  content: '';
-  display: block;
-  width: 25%;
-  height: 25%;
-  background-color: #3f4a75;
-  border-radius: 100%;
-  animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
+    content: "";
+    display: block;
+    width: 25%;
+    height: 25%;
+    background-color: #3f4a75;
+    border-radius: 100%;
+    animation: sk-chase-dot-before 2s infinite ease-in-out both;
 }
 
-.sk-chase-dot:nth-child(1) { animation-delay: -1.1s; }
-.sk-chase-dot:nth-child(2) { animation-delay: -1.0s; }
-.sk-chase-dot:nth-child(3) { animation-delay: -0.9s; }
-.sk-chase-dot:nth-child(4) { animation-delay: -0.8s; }
-.sk-chase-dot:nth-child(5) { animation-delay: -0.7s; }
-.sk-chase-dot:nth-child(6) { animation-delay: -0.6s; }
-.sk-chase-dot:nth-child(1):before { animation-delay: -1.1s; }
-.sk-chase-dot:nth-child(2):before { animation-delay: -1.0s; }
-.sk-chase-dot:nth-child(3):before { animation-delay: -0.9s; }
-.sk-chase-dot:nth-child(4):before { animation-delay: -0.8s; }
-.sk-chase-dot:nth-child(5):before { animation-delay: -0.7s; }
-.sk-chase-dot:nth-child(6):before { animation-delay: -0.6s; }
+.sk-chase-dot:nth-child(1) {
+    animation-delay: -1.1s;
+}
+.sk-chase-dot:nth-child(2) {
+    animation-delay: -1s;
+}
+.sk-chase-dot:nth-child(3) {
+    animation-delay: -0.9s;
+}
+.sk-chase-dot:nth-child(4) {
+    animation-delay: -0.8s;
+}
+.sk-chase-dot:nth-child(5) {
+    animation-delay: -0.7s;
+}
+.sk-chase-dot:nth-child(6) {
+    animation-delay: -0.6s;
+}
+.sk-chase-dot:nth-child(1):before {
+    animation-delay: -1.1s;
+}
+.sk-chase-dot:nth-child(2):before {
+    animation-delay: -1s;
+}
+.sk-chase-dot:nth-child(3):before {
+    animation-delay: -0.9s;
+}
+.sk-chase-dot:nth-child(4):before {
+    animation-delay: -0.8s;
+}
+.sk-chase-dot:nth-child(5):before {
+    animation-delay: -0.7s;
+}
+.sk-chase-dot:nth-child(6):before {
+    animation-delay: -0.6s;
+}
 
 @keyframes sk-chase {
-  100% { transform: rotate(360deg); } 
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes sk-chase-dot {
-  80%, 100% { transform: rotate(360deg); } 
+    80%,
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes sk-chase-dot-before {
-  50% {
-    transform: scale(0.4); 
-  } 100%, 0% {
-    transform: scale(1.0); 
-  } 
+    50% {
+        transform: scale(0.4);
+    }
+    100%,
+    0% {
+        transform: scale(1);
+    }
 }
-.center{ 
-    position: fixed; 
-    top: 0; 
-    bottom: 0; 
-    left: 0; 
-    right: 0; 
+.center {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin: auto;
-} 
-
-
-
+}
 
 /* Header CSS*/
 @media (max-width: 575px) {
-    
     .bdy {
         color: rgb(5, 17, 63);
         font-family: "Times New Roman", Times, serif;
     }
 }
 .header {
-    padding : 60px 30px 60px 30px;
+    padding: 60px 30px 60px 30px;
     margin: auto;
     max-width: 760px;
 }
@@ -86,18 +111,16 @@
     padding: 10px;
     margin-right: 0px;
     color: #052d3f;
-
 }
 
 .header_title {
-    
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
 }
 
 .header_bio {
     font-family: Arial;
-    margin:0;
+    margin: 0;
     text-transform: uppercase;
     font-size: 90%;
     font-weight: 600;
@@ -105,16 +128,16 @@
 }
 
 .contact_mail {
-    font-family: "Inconsolata","Consolas",monospace;
+    font-family: "Inconsolata", "Consolas", monospace;
     margin: 8px 0 8px 0;
     word-spacing: -2px;
 }
 
-.box { 
-    width: 200px ;
-    height: 200px; 
+.box {
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
-} 
+}
 
 .header_icons {
     padding: 0;
@@ -129,13 +152,11 @@
 .nav_btn {
     color: black;
     padding: 5px;
-
 }
 
 @media (max-width: 575px) {
-    
     .header {
-        padding : 20px;
+        padding: 20px;
         margin: auto;
         max-width: 760px;
     }
@@ -152,7 +173,7 @@
 }
 
 .fa-github-alt:hover {
-    color:rgb(5, 5, 5) !important;
+    color: rgb(5, 5, 5) !important;
 }
 
 .fa-instagram:hover {
@@ -177,18 +198,16 @@
 
 /* About Section CSS*/
 .intro {
-    padding : 20px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
     /*font-family: 'Times New Roman', Times, serif;*/
     font-size: 17px;
     text-align: justify;
-
 }
 
-
-.topic{
-    font-family: 'Times New Roman', Times, serif;
+.topic {
+    font-family: "Times New Roman", Times, serif;
     color: #27273f;
     font-weight: bold;
     position: relative;
@@ -199,9 +218,8 @@
 }
 
 @media (max-width: 575px) {
-    
     .intro {
-        padding : 20px;
+        padding: 20px;
         margin: auto;
         max-width: 760px;
         font-size: 15px;
@@ -209,28 +227,25 @@
 }
 
 /* Skills Section */
-.skills{
-    padding : 20px 30px 20px 30px;
+.skills {
+    padding: 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
     font-size: 15px;
-    
 }
 
-.card{
+.card {
     margin: 10px 10px 10px 10px;
     padding: 10px 0 10px 0;
 }
 
-.card-body{
+.card-body {
     padding: 10px;
 }
-.card-text
-{
+.card-text {
     text-align: justify;
 }
-.card-title{
-    
+.card-title {
     margin-top: 3px;
     margin-bottom: 6px;
     padding-bottom: 6px;
@@ -239,24 +254,24 @@
     border-color: rgb(199, 199, 199);
 }
 
-@media (max-width: 575px){
-    .card{
-        margin:10px 0px 10px 0px;
+@media (max-width: 575px) {
+    .card {
+        margin: 10px 0px 10px 0px;
     }
-    .card-body{
-        padding: 10px;
+    .card-body {
+        padding: 10px 13px 10px 13px;
         text-align: center;
     }
-    .card-img-top{
-        width:40% !important;
+    .card-img-top {
+        width: 40% !important;
     }
-    .skills{
+    .skills {
         padding: 20px;
         font-size: 14px;
     }
 }
 
-.card-img-top{
+.card-img-top {
     width: 58%;
 }
 
@@ -272,21 +287,45 @@
     transition-property: transform;
     background-color: rgb(245, 247, 255);
 }
-.hvr-grow-card:hover, .hvr-grow-card:focus, .hvr-grow-card:active {
+.hvr-grow-card:hover,
+.hvr-grow-card:focus,
+.hvr-grow-card:active {
     -webkit-transform: scale(1.2);
-    transform: scale(1.07);
+    transform: scale(1.065);
     background-color: rgb(212, 212, 255);
     border-width: thin;
     border-style: solid;
     border-color: #273a59;
-
 }
 
-
+@media (max-width: 575px) {
+    .hvr-grow-card {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        background-color: rgb(245, 247, 255);
+    }
+    .hvr-grow-card:hover,
+    .hvr-grow-card:focus,
+    .hvr-grow-card:active {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.05);
+        background-color: rgb(212, 212, 255);
+        border-width: thin;
+        border-style: solid;
+        border-color: #273a59;
+    }
+}
 
 /* Photography Section CSS */
-.photography{
-    padding : 20px 30px 20px 30px;
+.photography {
+    padding: 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
     /*font-family: 'Times New Roman', Times, serif;*/
@@ -295,7 +334,7 @@
 }
 
 .topic::after {
-    content: '';
+    content: "";
     background-color: #f5c0a2;
     height: 5px;
     position: absolute;
@@ -306,18 +345,17 @@
     z-index: -1;
 }
 
-.carousel{
-    padding : 20px 30px 20px 30px;
+.carousel {
+    padding: 20px 30px 20px 30px;
     margin: auto;
     max-width: 660px;
 }
 @media (max-width: 575px) {
-    .photography
-    {
+    .photography {
         padding: 20px;
         font-size: 15px;
     }
-    
+
     .carousel {
         padding: 0px;
         margin: auto;
@@ -326,20 +364,19 @@
 }
 
 /* Contact CSS */
-.contact{
-    padding : 20px 30px 20px 30px;
+.contact {
+    padding: 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
 }
 
-.contact_info_logo{
+.contact_info_logo {
     padding: 5px 8px 0 0;
 }
 
 /* Footer CSS*/
-.footer{
-    padding : 20px 30px 20px 30px;
+.footer {
+    padding: 20px 30px 20px 30px;
     margin: auto;
     max-width: 760px;
 }
-
