@@ -1,9 +1,9 @@
 /*  Preloader CSS*/
 
-#sk-chase {
+.sk-chase {
     width: 40px;
     height: 40px;
-    position: absolute;
+    position: relative;
     animation: sk-chase 2.5s infinite linear both;
 }
 
