@@ -14,6 +14,7 @@
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <!--Main CSS -->
         <link rel="stylesheet" href="./assets/stylesheet/main.css">
@@ -31,7 +32,7 @@
         
 
         <!-- Preloader -->
-        <div class="sk-chase center">
+        <div id="sk-chase" class= "center">
             <div class="sk-chase-dot"></div>
             <div class="sk-chase-dot"></div>
             <div class="sk-chase-dot"></div>
@@ -392,10 +393,10 @@
                     document.querySelector( 
                       "body").style.visibility = "hidden"; 
                     document.querySelector( 
-                      ".sk-chase").style.visibility = "visible"; 
+                      "#sk-chase").style.visibility = "visible"; 
                 } else { 
                     document.querySelector( 
-                      ".sk-chase").style.display = "none"; 
+                      "#sk-chase").style.display = "none"; 
                     document.querySelector( 
                       "body").style.visibility = "visible"; 
                 } 
